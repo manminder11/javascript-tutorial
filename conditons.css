@@ -1,0 +1,17 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-size: medium;
+
+}
+
+#GPA:hover {
+    background-color: goldenrod;
+    color:darkred;
+    transition:background-color 0.25s
+}
+
+#GPA{
+    font-size:medium ;
+    font-weight: bold;
+}
