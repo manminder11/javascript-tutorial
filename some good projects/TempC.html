@@ -4,8 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="TempC.css" />
-    <title>Document</title>
-    <script src="TempC.Js"></script>
+    <title>Temperature Conversion</title>
   </head>
   <body>
- 
+    <form>
+      <h1>Temperature Conversion</h1>
+      <input type="number" id="textbox" value="0" /><br />
+      <input type="radio" id="toFahrenheit" name="unit" />
+      <label for="toFahrenheit">Celsius ➡️ Fahrenheit</label><br />
+      <input type="radio" id="toCelsius" name="unit" />
+      <label for="toCelsius">Fahrenheit ➡️ Celsius</label><br />
+
+      <button type="button" onclick="convert()">Convert</button>
+      <p id="result"></p>
+    </form>
+
+    <script src="TempC.js"></script>
+  </body>
+</html>
